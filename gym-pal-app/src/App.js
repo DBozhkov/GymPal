@@ -12,6 +12,7 @@ import Login from "./components/Auth/Login";
 import Register from "./components/Auth/Register";
 import Logout from "./components/Auth/Logout";
 import CheckAuth from "./components/Auth/CheckAuth.js";
+import Contacts from "../src/components/Contacts.js"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/stayfit" element={<KeepFormSupplements />} />
           <Route path="/calculator" element={<BMICalculator />} />
           <Route path="/create-supplement" element={<CreateSupplement />} />
+          <Route path="/contacts" element={<Contacts />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/logout" element={<Logout />} />
