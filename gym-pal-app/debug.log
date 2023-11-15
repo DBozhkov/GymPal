@@ -1,0 +1,8 @@
+[1016/230737.048:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1016/231707.746:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1017/200925.799:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1017/215843.723:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1017/231631.359:ERROR:crash_report_database_win.cc(426)] unexpected header
+[1105/185835.533:ERROR:persistent_memory_allocator.cc(777)] Corruption detected in shared-memory segment.
+[1106/202854.247:ERROR:persistent_memory_allocator.cc(777)] Corruption detected in shared-memory segment.
+[1108/101502.705:ERROR:main_dll_loader_win.cc(136)] Failed to load Chrome DLL from C:\Program Files (x86)\Bagsarah\Application\58.0.3029.81\chrome.dll: The specified module could not be found. (0x7E)

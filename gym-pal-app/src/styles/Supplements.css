@@ -1,0 +1,39 @@
+.supplementRow {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px;
+    padding: 20px;
+  }
+  
+.supplementRow .col-lg-3 {
+    flex-basis: calc(25% - 20px); 
+  }
+  
+  
+.firstSupl {
+    height: 50vh; 
+     margin-bottom: 30px;
+  }
+  
+  
+.secondSupl .card-img-top {
+    aspect-ratio: 1 / 0.5;
+    height: 50%;
+  }
+
+  .create-supplement-button {
+    width: 25%; /* At least a quarter of the screen width */
+    background-color: blue;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color change on hover */
+  }
+  
+  .create-supplement-button:hover {
+    background-color: darkblue; /* Change background color on hover */
+  }

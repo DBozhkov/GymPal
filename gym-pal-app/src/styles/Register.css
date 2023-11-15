@@ -1,0 +1,51 @@
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="username"],
+  input[type="password"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .ErrorMessageHolder {
+    text-align: center;
+    padding: 10px;
+    color: red;
+  }
+  
+  Link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 600px) {
+    input[type="username"],
+    input[type="password"],
+    input[type="email"],
+    input[type="submit"] {
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
+  

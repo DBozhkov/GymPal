@@ -1,0 +1,1 @@
+Gym-Pal - A netcore 2.2 Web Api with integrated CRUD operations, using SSMS database with migrations and content seeder, and a React SPA with custom hooks, services and authorization using jwtokens and refresh tokens

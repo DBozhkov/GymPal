@@ -1,0 +1,25 @@
+.calc {
+    text-align: center;
+    margin-top: 10vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
+  
+  .calc h1, .calc span, .calc label, .calc input, .calc h2 {
+    color: black; 
+    font-weight: bold; 
+  }
+  
+  .calc button {
+    font-weight: bold;
+    color: white;
+    background-color: darkslategray;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .calc button:hover {
+    background-color: black;
+  }
+  

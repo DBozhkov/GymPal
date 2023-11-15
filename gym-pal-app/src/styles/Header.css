@@ -1,0 +1,35 @@
+/* Header.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; /* Set the background color to transparent */
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #logo {
+    max-width: 100px; /* Set the maximum width for the logo */
+    max-height: 40px; /* Set the maximum height for the logo */
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
